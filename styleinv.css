@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+image{
+    width: 100%;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+main{
+    width: 80%;
+    margin: 4rem 0;
+}
+
+.matrices
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin: 4rem 0;
+}
+.matrix{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.matrix-output{
+    display: none;
+}
+header{
+    margin: 4vh 0;
+}
+
+h2{
+    margin: 3vh 0;
+}
+
+button{
+    width: 10%;
+    padding: 0.5rem 1rem;
+}
+
+p{
+    margin: 3rem;
+}
